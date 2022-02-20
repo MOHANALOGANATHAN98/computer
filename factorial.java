@@ -11,7 +11,7 @@ try
 System.out.println("Enter a positive integer:");
 n=Integer.ParseInt(din.readline());
 int f=1;
-for(int i=1;i<=n;i++)
+for(int i=2;i<=n;i++)
 f*=i;
 System.out.println(+n+"!= "+f);
 }
@@ -19,5 +19,4 @@ catch (IOException e)
 {
 System.out.println(e);
 }
-}
-}
+
